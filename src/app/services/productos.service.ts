@@ -75,7 +75,8 @@ export class ProductosService {
 
     }
 
-    private filtrarProductos (termino:string) {
+    //private filtrarProductos (termino:string) {
+    public filtrarProductos (termino:string) {
 
       console.log(this.productos);
       this.productosFiltrado = [];
